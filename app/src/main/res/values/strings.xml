@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Cunny Archive</string>
+    <string name="open_directory_note">Grant read/write permissions for the game directory.\nOn Android 10+ scoped storage access is used; legacy storage permissions otherwise\nYou only need to do this once.</string>
+    <string name="uncensor_note">Copy files from the Korean version into the Global version.\nNote: on Android 10+ all required game files, including the censored ones, should exist in the local storage.\n(i.e. launch the game and let it download everything)</string>
+    <string name="recensor_note">Remove modified files to make the game download them again.</string>
+</resources>
