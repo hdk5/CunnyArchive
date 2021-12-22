@@ -62,7 +62,9 @@ fun makeMxTreeUri29(path: String): Uri {
 }
 
 fun makeMxTreeUriLegacy(path: String): Uri {
-    val storagePath = Environment.getExternalStorageDirectory().absolutePath
+    @Suppress("DEPRECATION")
+    val externalStorageDirectory = Environment.getExternalStorageDirectory()
+    val storagePath = externalStorageDirectory.absolutePath
     return Uri.fromFile(File("$storagePath/$MX_DATA_PATH/$path"))
 }
 
@@ -139,6 +141,7 @@ fun OpenDirectoryButtonCommon(
 fun OpenDirectoryButton29(onResult: () -> Unit) {
     val context = LocalContext.current
 
+    // Huge thanks to https://stackoverflow.com/a/66466205 for this workaround
     val storageManager = context.getSystemService(STORAGE_SERVICE) as StorageManager
     val primaryStorageVolume = storageManager.primaryStorageVolume
     val intent = primaryStorageVolume.createOpenDocumentTreeIntent().apply {
