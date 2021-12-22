@@ -16,7 +16,7 @@ Check out [GitHub Releases](https://github.com/hdk5/CunnyArchive/releases)
 
 Install the .apk file, launch installed app and read what's on screen
 
-### What it does? Can I do decensoring myself?
+### What does it do? Can I do decensoring myself?
 
 Check out [CENSORSHIP.md](/CENSORSHIP.md)
 
@@ -27,6 +27,10 @@ Yes
 ### I got banned!
 
 Told ya
+
+### I didn't get banned!
+
+Yet
 
 ### It does not work
 
