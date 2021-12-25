@@ -20,7 +20,7 @@ private val DarkColorPalette = darkColors(
 private val LightColorPalette = lightColors(
     primary = Blue500,
     primaryVariant = Blue700,
-    onPrimary = Color.Black,
+    onPrimary = Color.White,
 
     secondary = Pink200,
     secondaryVariant = Pink700,
