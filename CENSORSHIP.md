@@ -17,3 +17,14 @@ Copy and replace files:
 2. `files/PUB/Resource/GameData/MediaResources/UIs/03_Scenario/01_Background/BG_CS_Millenium_10.jpg`
    to
    `files/PUB/Resource/GameData/MediaResources/UIs/03_Scenario/01_Background/BG_CS_Millenium_10_c.png`
+
+
+## Not Yet Implemented
+
+### Various mistranslations
+
+Such as
+
+1. Hoshino not being referred to as "Horus of the Dawn" in Volume 1, Chapter 1, Episode 17
+2. Mutsuki's Christmas line
+3. Aris' name (debatable)
