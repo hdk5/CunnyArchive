@@ -1,3 +1,11 @@
+### Archival notice
+
+https://m.nexon.com/forum/thread/101347
+
+Nexon plans to release a separate age-restricted client for the game.
+
+No need for any unofficial patches anymore!
+
 # Cunny Archive
 
 Automatic Blue Archive decensor patch
